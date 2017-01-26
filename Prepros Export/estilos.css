@@ -1,0 +1,43 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #f0f0f0;
+
+
+
+} 
+.contenedor {
+	width: 90%;
+	height: 300%;
+	background: #A4C4CC;
+	margin: auto;
+	display: flex;
+		flex-direction: column;
+
+
+} 
+
+.item:nth-child(odd){
+	background: #416ED7;
+	flex-basis: 100px;
+	margin: 2px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.item:nth-child(even){
+	background: #5EA455;
+	flex-basis: 100px;
+	margin: 2px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+	
